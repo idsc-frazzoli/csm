@@ -212,7 +212,7 @@ int ld_valid_fields(LDP ld)  {
 	}
 	/* Check that there are valid rays */
 	double min_reading = 0;
-	double max_reading = 100;
+	double max_reading = 150;
 	int i; for(i=0;i<ld->nrays;i++) {
 		double th = ld->theta[i];
 		if(ld->valid[i]) {
